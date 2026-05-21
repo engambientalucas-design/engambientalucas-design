@@ -57,7 +57,22 @@ Fluxo demonstrado:
 
 ```text
 SQL Server -> Views oficiais/exportações CSV -> Power Query -> Modelo Power BI -> DAX -> Dashboard Executivo
-```
+```$([Environment]::NewLine)
+### [IndicadoresMunicipais ETL Python](https://github.com/engambientalucas-design/IndicadoresMunicipais_ETL_Python)
+
+Projeto de ETL e análise exploratória em Python voltado à criação de indicadores municipais de desenvolvimento e infraestrutura.
+
+Principais pontos:
+
+- Leitura de dados brutos em CSV.
+- Tratamento e padronização com pandas.
+- Normalização de indicadores.
+- Criação de índice consolidado de infraestrutura.
+- Geração de ranking municipal.
+- Produção de gráfico com matplotlib/seaborn.
+- Documentação estruturada para portfólio.
+
+Este projeto amplia meu portfólio para além de SQL Server e Power BI, demonstrando também domínio inicial de pipelines de dados com Python.
 
 ## O Que Estou Construindo
 
@@ -68,10 +83,11 @@ Atualmente estou desenvolvendo um portfólio orientado a projetos reais, com foc
 - Indicadores com governança.
 - Dashboards com narrativa executiva e validação técnica.
 - Versionamento com Git e publicação no GitHub.
+- Pipelines de dados com Python, pandas e visualizações.
 
 ## Próximos Passos
 
-- Criar novos projetos envolvendo ETL, análise exploratória e automação com Python.
+- Evoluir projetos envolvendo ETL, análise exploratória e automação com Python.
 - Evoluir dashboards com melhores práticas de UX e storytelling.
 - Aprofundar modelagem dimensional e performance em SQL Server.
 - Publicar estudos técnicos sobre os projetos desenvolvidos.
@@ -85,4 +101,6 @@ SQL Server | Power BI | Power Query | DAX | Python | Git | GitHub
 ## Contato
 
 Estou aberto a oportunidades, networking e conversas sobre dados, BI e desenvolvimento de soluções analíticas.
+
+
 
