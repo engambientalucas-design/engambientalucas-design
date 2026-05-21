@@ -21,6 +21,17 @@ Minha formação em Engenharia Ambiental contribuiu para desenvolver uma visão 
 - Análise e Desenvolvimento de Sistemas
 - Documentação técnica para portfólio
 
+## Ecossistema Atual
+
+```mermaid
+flowchart LR
+    A["QualidadeAmbiental_SQLServer<br/>Modelagem, regras e views oficiais"] --> B["Views oficiais / exportações CSV<br/>Contrato analítico"]
+    B --> C["QualidadeAmbiental_PowerBI<br/>Power Query, modelo semântico e DAX"]
+    C --> D["Dashboard Executivo<br/>8 páginas, indicadores e validação técnica"]
+
+    E["IndicadoresMunicipais_ETL_Python<br/>Python, pandas e análise exploratória"] --> F["Dados tratados<br/>Ranking, gráfico e insights"]
+```
+
 ## Projetos em Destaque
 
 ### [QualidadeAmbiental SQL Server](https://github.com/engambientalucas-design/QualidadeAmbiental_SQLServer)
@@ -57,7 +68,8 @@ Fluxo demonstrado:
 
 ```text
 SQL Server -> Views oficiais/exportações CSV -> Power Query -> Modelo Power BI -> DAX -> Dashboard Executivo
-```$([Environment]::NewLine)
+```
+
 ### [IndicadoresMunicipais ETL Python](https://github.com/engambientalucas-design/IndicadoresMunicipais_ETL_Python)
 
 Projeto de ETL e análise exploratória em Python voltado à criação de indicadores municipais de desenvolvimento e infraestrutura.
@@ -101,6 +113,3 @@ SQL Server | Power BI | Power Query | DAX | Python | Git | GitHub
 ## Contato
 
 Estou aberto a oportunidades, networking e conversas sobre dados, BI e desenvolvimento de soluções analíticas.
-
-
-
